@@ -1,5 +1,5 @@
 # Resources:
-![hacker.jpg](Pasted%20image%2020230609192217.jpg)
+![hacker.jpg](hacker.jpg)
 ```
 e = 65537
 m = 841369317301357750365699129721153968
