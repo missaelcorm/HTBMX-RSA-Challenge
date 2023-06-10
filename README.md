@@ -67,12 +67,12 @@ Now our Best Friend is gonna be the ASCII Table, and splitting that number in th
 ```
 112 52 52 122 119 48 114 100
 ```
-we get a string: `p44sw0rd`
+we get a string: `p44zw0rd`
 ```
 112 -> p
 52  -> 4
 52  -> 4
-122 -> s
+122 -> z
 119 -> w
 48  -> 0
 114 -> r
