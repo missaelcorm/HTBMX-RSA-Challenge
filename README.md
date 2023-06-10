@@ -82,3 +82,21 @@ we get a string: `p44zw0rd`
 Then using `steghide` over the image provided, we can see that string is not the password, so we are FUCK.
 
 I tried a lot of encodings/decodings but nothing worked, my ideas are running out...
+
+> **_NOTE:_** This was because I downloaded the Image from discord web source into my kali VM, so I think that downloading via this way maybe lost the stenography.
+
+Then I used the image downloaded directly from Discord Windows App, I tried first with this page [Stegano](https://futureboy.us/stegano/decinput.html) and worked.
+
+![SteganoWeb](SteganoWeb.png)
+
+And we got the Flag: `htbmx{4_uN_4dm1n_l3_6uzt4_CRYPTO}`
+
+![SteganoWeb](SteganoWebFlag.png)
+
+Reading about this page, I notice me that they use `steghide` internally, so I manually moved the image from my Host to my Kali VM to use `steghide` ...
+
+And worked!
+
+![SteganoWeb](SteghideFlag.png)
+
+> **_LESSON:_** Always try with many tools and don't trust in the compression methods, maybe you're losing info...
